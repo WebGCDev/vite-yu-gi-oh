@@ -1,0 +1,19 @@
+@use './common' as *;
+
+main {
+    background-color: $primary;
+    padding: 2rem 0;
+
+    .main_container {
+        width: 80%;
+        margin: 0 auto;
+
+        .select_archetype {
+            padding-bottom: 2rem;
+
+            .form-select {
+                width: fit-content;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@use "./common" as *;
+
+.cardlist_container {
+    background-color: $light;
+    padding: 3rem;
+
+    .found {
+        span {
+            background-color: $dark;
+            color: $light;
+            font-weight: bold;
+        }
+    }
+
+    .col {
+        padding-bottom: 1rem;
+
+        .my_card {
+            background-color: $primary;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            img {
+                width: 100%;
+            }
+
+            .card_text {
+                background-color: $primary;
+                padding: 1rem 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+}

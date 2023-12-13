@@ -1,1 +1,4 @@
 @use '../../../node_modules/bootstrap/scss/bootstrap.scss' as *;
+@use './partials/common' as *;
+@use './partials/main' as *;
+@use './partials/cards' as *;
